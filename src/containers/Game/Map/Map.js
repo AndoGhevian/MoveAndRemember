@@ -22,7 +22,7 @@ const Map = (props) => {
     }
 
     return (
-        <div tabIndex={0} onKeyUp={props.onMove} style={props.style} className={classes.Map}>
+        <div tabIndex={0} onKeyUp={props.onMove} style={props.style} className={classNames.join(' ')}>
             {props.map.map((row, rowIndex) => row.map((col, colIndex) => {
                 if (!col) {
                     return <Segment style={segmentStyles} key={rowIndex + '' + colIndex} />

@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    box-sizing: border-box;
-    background-color: blueviolet;
+    background-color: #ffd271;
+    border: 1px solid #a278b5;
 }
 
 .Error {
-    border: 1px solid red;
+    border: 9px solid #ff01aa;
 }
