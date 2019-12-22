@@ -1,0 +1,16 @@
+.TestArea {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+}
+
+.Animated {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
